@@ -4,6 +4,8 @@ First install and enable [SrRestoreRoleTemplates](https://github.com/studer-raim
 
 With this plugin you can run the jobs manually for a single object too
 
-![Tab](./images/tab.png)
+![Tab permissions](./images/tab_permissions.png)
+
+![Tab settings](./images/tab_settings.png)
 
 ![UI](./images/ui.png)
