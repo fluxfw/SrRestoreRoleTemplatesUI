@@ -1,0 +1,60 @@
+{
+  "name": "srag/plugins/srrestoreroletemplatesui",
+  "description": "",
+  "version": "1.0.0",
+  "extra": {
+    "ilias_plugin": {
+      "id": "srresroltemui",
+      "name": "SrRestoreRoleTemplatesUI",
+      "ilias_min_version": "5.4.0",
+      "ilias_max_version": "6.999",
+      "slot": "Services/UIComponent/UserInterfaceHook"
+    }
+  },
+  "type": "project",
+  "keywords": [
+    "ILIAS",
+    "Plugin"
+  ],
+  "homepage": "https://github.com/studer-raimann/SrRestoreRoleTemplatesUI",
+  "license": "GPL-3.0-only",
+  "authors": [
+    {
+      "name": "studer + raimann ag - Team Custom 1",
+      "email": "support-custom1@studer-raimann.ch",
+      "homepage": "https://studer-raimann.ch",
+      "role": "Developer"
+    }
+  ],
+  "support": {
+    "issues": "https://plugins.studer-raimann.ch/goto.php?target=uihk_srsu_PLRRT"
+  },
+  "require": {
+    "php": ">=7.0",
+    "srag/librariesnamespacechanger": ">=0.1.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "srag\\Plugins\\SrRestoreRoleTemplatesUI\\": "src/"
+    },
+    "classmap": [
+      "classes/"
+    ],
+    "files": [
+      "../../../Cron/CronHook/SrRestoreRoleTemplates/vendor/autoload.php"
+    ]
+  },
+  "config": {
+    "classmap-authoritative": true,
+    "optimize-autoloader": true,
+    "sort-packages": true
+  },
+  "scripts": {
+    "pre-autoload-dump": [
+      "srag\\LibrariesNamespaceChanger\\LibrariesNamespaceChanger::rewriteLibrariesNamespaces",
+      "srag\\LibrariesNamespaceChanger\\PHP72Backport::PHP72Backport",
+      "srag\\LibrariesNamespaceChanger\\GeneratePluginPhpAndXml::generatePluginPhpAndXml",
+      "srag\\LibrariesNamespaceChanger\\GeneratePluginReadme::generatePluginReadme"
+    ]
+  }
+}
