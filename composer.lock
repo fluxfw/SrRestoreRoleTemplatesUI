@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "4028950b4a702c15ed65ee1c25cfefc5",
+    "content-hash": "c262437b0c9bb492b5a483e9184df39b",
     "packages": [
         {
             "name": "srag/librariesnamespacechanger",
