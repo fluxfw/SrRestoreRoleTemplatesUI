@@ -8,6 +8,9 @@ $baseDir = dirname($vendorDir);
 return array(
     'ilSrRestoreRoleTemplatesUIPlugin' => $baseDir . '/classes/class.ilSrRestoreRoleTemplatesUIPlugin.php',
     'ilSrRestoreRoleTemplatesUIUIHookGUI' => $baseDir . '/classes/class.ilSrRestoreRoleTemplatesUIUIHookGUI.php',
+    'srag\\GeneratePluginInfosHelper\\SrRestoreRoleTemplatesUI\\GeneratePluginPhpAndXml' => $vendorDir . '/srag/generateplugininfoshelper/src/GeneratePluginPhpAndXml.php',
+    'srag\\GeneratePluginInfosHelper\\SrRestoreRoleTemplatesUI\\GeneratePluginReadme' => $vendorDir . '/srag/generateplugininfoshelper/src/GeneratePluginReadme.php',
+    'srag\\GeneratePluginInfosHelper\\SrRestoreRoleTemplatesUI\\UpdatePluginReadme' => $vendorDir . '/srag/generateplugininfoshelper/src/UpdatePluginReadme.php',
     'srag\\LibrariesNamespaceChanger\\GeneratePluginPhpAndXml' => $vendorDir . '/srag/librariesnamespacechanger/src/GeneratePluginPhpAndXml.php',
     'srag\\LibrariesNamespaceChanger\\GeneratePluginReadme' => $vendorDir . '/srag/librariesnamespacechanger/src/GeneratePluginReadme.php',
     'srag\\LibrariesNamespaceChanger\\LibrariesNamespaceChanger' => $vendorDir . '/srag/librariesnamespacechanger/src/LibrariesNamespaceChanger.php',
