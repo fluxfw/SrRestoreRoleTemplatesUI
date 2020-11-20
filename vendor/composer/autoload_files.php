@@ -6,5 +6,5 @@ $vendorDir = dirname(dirname(__FILE__));
 $baseDir = dirname($vendorDir);
 
 return array(
-    '7c6b1dfd74107f925a4936eec0869531' => $baseDir . '/../../../Cron/CronHook/SrRestoreRoleTemplates/vendor/autoload.php',
+    '2037d1f2649570fa4355b68cbd78dd07' => $baseDir . '/../../../Cron/CronHook/SrRestoreRoleTemplates/vendor/autoload.php',
 );

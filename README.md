@@ -2,34 +2,66 @@
 
 # SrRestoreRoleTemplatesUI ILIAS Plugin
 
+Reapply didactic or role templates per object
+
 This is an OpenSource project by studer + raimann ag, CH-Burgdorf (https://studer-raimann.ch)
 
-## Description
-See in [doc/DESCRIPTION.md](./doc/DESCRIPTION.md)
+This project is licensed under the GPL-3.0-only license
 
-## Documentation
-See in [doc/DOCUMENTATION.md](./doc/DOCUMENTATION.md)
+## Requirements
+
+* ILIAS 5.4.0 - 6.999
+* PHP >=7.0
 
 ## Installation
+
 Start at your ILIAS root directory
+
 ```bash
 mkdir -p Customizing/global/plugins/Services/UIComponent/UserInterfaceHook
 cd Customizing/global/plugins/Services/UIComponent/UserInterfaceHook
 git clone https://github.com/studer-raimann/SrRestoreRoleTemplatesUI.git SrRestoreRoleTemplatesUI
 ```
+
 Update, activate and config the plugin in the ILIAS Plugin Administration
 
-## Requirements
-* ILIAS 5.4.0 - 6.999
-* PHP >=7.0
+## Description
+
+With this plugin you can run the jobs manually for a single object too
+
+### Base plugin
+
+First install and enable [SrRestoreRoleTemplates](https://github.com/studer-raimann/SrRestoreRoleTemplates) plugin
+
+### Permissions tab
+
+You will find the plugin in the permissions tab for all object types
+
+![Tab permissions](./doc/images/tab_permissions.png)
+
+### Settings tab
+
+For some core object types (Categories, courses, folders and groups), you will find it in the settings tab too
+
+![Tab settings](./doc/images/tab_settings.png)
+
+### Actions
+
+You can run the actions from there
+
+Note: Reapply role templates is only available for courses
+
+![UI](./doc/images/ui.png)
 
 ## Adjustment suggestions
+
 * External users can report suggestions and bugs at https://plugins.studer-raimann.ch/goto.php?target=uihk_srsu_PLRRT
 * Adjustment suggestions by pull requests via github
 
 ## ILIAS Plugin SLA
-Wir lieben und leben die Philosophie von Open Source Software! Die meisten unserer Entwicklungen, welche wir im Kundenauftrag oder in Eigenleistung entwickeln, stellen wir öffentlich allen Interessierten kostenlos unter https://github.com/studer-raimann zur Verfügung.
 
-Setzen Sie eines unserer Plugins professionell ein? Sichern Sie sich mittels SLA die termingerechte Verfügbarkeit dieses Plugins auch für die kommenden ILIAS Versionen. Informieren Sie sich hierzu unter https://studer-raimann.ch/produkte/ilias-plugins/plugin-sla.
+We love and live the philosophy of Open Source Software! Most of our developments, which we develop on behalf of customers or on our own account, are publicly available free of charge to all interested parties at https://github.com/studer-raimann.
 
-Bitte beachten Sie, dass wir nur Institutionen, welche ein SLA abschliessen Unterstützung und Release-Pflege garantieren.
+Do you use one of our plugins professionally? Secure the timely availability of this plugin for the upcoming ILIAS versions via SLA. Please inform yourself under https://studer-raimann.ch/produkte/ilias-plugins/plugin-sla.
+
+Please note that we only guarantee support and release maintenance for institutions that sign a SLA.

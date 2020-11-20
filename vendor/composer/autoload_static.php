@@ -7,7 +7,7 @@ namespace Composer\Autoload;
 class ComposerStaticInitc6e082278c4d301afe6f2894ec5ed711
 {
     public static $files = array (
-        '7c6b1dfd74107f925a4936eec0869531' => __DIR__ . '/../..' . '/../../../Cron/CronHook/SrRestoreRoleTemplates/vendor/autoload.php',
+        '2037d1f2649570fa4355b68cbd78dd07' => __DIR__ . '/../..' . '/../../../Cron/CronHook/SrRestoreRoleTemplates/vendor/autoload.php',
     );
 
     public static $prefixLengthsPsr4 = array (
@@ -15,6 +15,7 @@ class ComposerStaticInitc6e082278c4d301afe6f2894ec5ed711
         array (
             'srag\\Plugins\\SrRestoreRoleTemplatesUI\\' => 38,
             'srag\\LibrariesNamespaceChanger\\' => 31,
+            'srag\\GeneratePluginInfosHelper\\SrRestoreRoleTemplatesUI\\' => 56,
         ),
     );
 
@@ -27,18 +28,21 @@ class ComposerStaticInitc6e082278c4d301afe6f2894ec5ed711
         array (
             0 => __DIR__ . '/..' . '/srag/librariesnamespacechanger/src',
         ),
+        'srag\\GeneratePluginInfosHelper\\SrRestoreRoleTemplatesUI\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/srag/generateplugininfoshelper/src',
+        ),
     );
 
     public static $classMap = array (
         'ilSrRestoreRoleTemplatesUIPlugin' => __DIR__ . '/../..' . '/classes/class.ilSrRestoreRoleTemplatesUIPlugin.php',
         'ilSrRestoreRoleTemplatesUIUIHookGUI' => __DIR__ . '/../..' . '/classes/class.ilSrRestoreRoleTemplatesUIUIHookGUI.php',
-        'srag\\LibrariesNamespaceChanger\\GeneratePluginPhpAndXml' => __DIR__ . '/..' . '/srag/librariesnamespacechanger/src/GeneratePluginPhpAndXml.php',
-        'srag\\LibrariesNamespaceChanger\\GeneratePluginReadme' => __DIR__ . '/..' . '/srag/librariesnamespacechanger/src/GeneratePluginReadme.php',
+        'srag\\GeneratePluginInfosHelper\\SrRestoreRoleTemplatesUI\\GeneratePluginPhpAndXml' => __DIR__ . '/..' . '/srag/generateplugininfoshelper/src/GeneratePluginPhpAndXml.php',
+        'srag\\GeneratePluginInfosHelper\\SrRestoreRoleTemplatesUI\\GeneratePluginReadme' => __DIR__ . '/..' . '/srag/generateplugininfoshelper/src/GeneratePluginReadme.php',
         'srag\\LibrariesNamespaceChanger\\LibrariesNamespaceChanger' => __DIR__ . '/..' . '/srag/librariesnamespacechanger/src/LibrariesNamespaceChanger.php',
         'srag\\LibrariesNamespaceChanger\\PHP72Backport' => __DIR__ . '/..' . '/srag/librariesnamespacechanger/src/PHP72Backport.php',
         'srag\\LibrariesNamespaceChanger\\PHP7Backport' => __DIR__ . '/..' . '/srag/librariesnamespacechanger/src/PHP7Backport.php',
         'srag\\LibrariesNamespaceChanger\\RemovePHP72Backport' => __DIR__ . '/..' . '/srag/librariesnamespacechanger/src/RemovePHP72Backport.php',
-        'srag\\LibrariesNamespaceChanger\\UpdatePluginReadme' => __DIR__ . '/..' . '/srag/librariesnamespacechanger/src/UpdatePluginReadme.php',
     );
 
     public static function getInitializer(ClassLoader $loader)
