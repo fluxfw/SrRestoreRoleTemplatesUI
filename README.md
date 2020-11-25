@@ -2,7 +2,7 @@
 
 # SrRestoreRoleTemplatesUI ILIAS Plugin
 
-Reapply didactic or role templates per object
+Manually reapply didactic or role templates per object
 
 This is an OpenSource project by studer + raimann ag, CH-Burgdorf (https://studer-raimann.ch)
 
@@ -33,6 +33,8 @@ With this plugin you can run the jobs manually for a single object too
 
 First install and enable [SrRestoreRoleTemplates](https://github.com/studer-raimann/SrRestoreRoleTemplates) plugin
 
+You can disable its cron jobs if you don't wish it
+
 ### Permissions tab
 
 You will find the plugin in the permissions tab for all object types
@@ -48,6 +50,8 @@ For some core object types (Categories, courses, folders and groups), you will f
 ### Actions
 
 You can run the actions from there
+
+The 'Only objects created after' config does not affect here
 
 Note: Reapply role templates is only available for courses
 
