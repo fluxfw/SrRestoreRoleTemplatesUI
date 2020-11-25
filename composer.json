@@ -1,7 +1,7 @@
 {
   "name": "srag/srrestoreroletemplatesui",
-  "description": "Reapply didactic or role templates per object",
-  "version": "1.1.1",
+  "description": "Manually reapply didactic or role templates per object",
+  "version": "1.1.2",
   "extra": {
     "ilias_plugin": {
       "id": "srresroltemui",
