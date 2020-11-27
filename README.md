@@ -27,11 +27,9 @@ Update, activate and config the plugin in the ILIAS Plugin Administration
 
 ## Description
 
-With this plugin you can run the jobs manually for a single object too
-
 ### Base plugin
 
-First install and enable [SrRestoreRoleTemplates](https://github.com/studer-raimann/SrRestoreRoleTemplates) plugin
+First you need to install the [SrRestoreRoleTemplates](https://github.com/studer-raimann/SrRestoreRoleTemplates) plugin
 
 You can disable its cron jobs if you don't wish it
 
