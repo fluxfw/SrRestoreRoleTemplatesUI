@@ -1,5 +1,7 @@
 <?php
 
+require_once __DIR__ . "/../vendor/autoload.php";
+
 use srag\DIC\SrRestoreRoleTemplates\DICTrait;
 use srag\Plugins\SrRestoreRoleTemplates\UI\SrRestoreRoleTemplatesUICtrl;
 use srag\Plugins\SrRestoreRoleTemplates\Utils\SrRestoreRoleTemplatesTrait;
@@ -17,6 +19,7 @@ class ilSrRestoreRoleTemplatesUIUIHookGUI extends ilUIHookPluginGUI
 
     const GET_PARAM_REF_ID = "ref_id";
     const GET_PARAM_TARGET = "target";
+    const OBJECT_GUIS = [ilObjCategoryGUI::class, ilObjCourseGUI::class, ilObjFolderGUI::class, ilObjGroupGUI::class];
     const PAR_SUB_TABS = "sub_tabs";
     const PLUGIN_CLASS_NAME = ilSrRestoreRoleTemplatesPlugin::class;
 
@@ -38,7 +41,7 @@ class ilSrRestoreRoleTemplatesUIUIHookGUI extends ilUIHookPluginGUI
         if ($a_part === self::PAR_SUB_TABS) {
 
             if (self::dic()->ctrl()->getCmdClass() === strtolower(ilPermissionGUI::class)
-                || (in_array(self::dic()->ctrl()->getCmdClass(), array_map("strtolower", [ilObjCategoryGUI::class, ilObjCourseGUI::class, ilObjFolderGUI::class, ilObjGroupGUI::class]))
+                || (in_array(self::dic()->ctrl()->getCmdClass(), array_map("strtolower", self::OBJECT_GUIS))
                     && self::dic()
                         ->ctrl()
                         ->getCmd() === "edit")

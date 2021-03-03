@@ -20,7 +20,7 @@ Start at your ILIAS root directory
 ```bash
 mkdir -p Customizing/global/plugins/Services/UIComponent/UserInterfaceHook
 cd Customizing/global/plugins/Services/UIComponent/UserInterfaceHook
-git clone https://github.com/studer-raimann/SrRestoreRoleTemplatesUI.git SrRestoreRoleTemplatesUI
+git clone https://github.com/fluxfw/SrRestoreRoleTemplatesUI.git SrRestoreRoleTemplatesUI
 ```
 
 Update, activate and config the plugin in the ILIAS Plugin Administration
@@ -57,8 +57,9 @@ Note: Reapply role templates is only available for courses
 
 ## Adjustment suggestions
 
-* External users can report suggestions and bugs at https://plugins.studer-raimann.ch/goto.php?target=uihk_srsu_PLRRT
-* Adjustment suggestions by pull requests via github
+You can report bugs or suggestions at https://plugins.studer-raimann.ch/goto.php?target=uihk_srsu_PLRRT
+
+There is no guarantee this can be fixed or implemented
 
 ## ILIAS Plugin SLA
 

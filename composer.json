@@ -1,23 +1,27 @@
 {
   "name": "srag/srrestoreroletemplatesui",
   "description": "Manually reapply didactic or role templates per object",
-  "version": "1.1.3",
+  "version": "1.1.4",
   "extra": {
     "ilias_plugin": {
       "id": "srresroltemui",
       "name": "SrRestoreRoleTemplatesUI",
       "ilias_min_version": "5.4.0",
       "ilias_max_version": "6.999",
-      "slot": "Services/UIComponent/UserInterfaceHook"
+      "slot": "Services/UIComponent/UserInterfaceHook",
+      "supports_cli_setup": true
     },
-    "generate_plugin_readme_template": "SRAG_ILIAS_PLUGIN"
+    "generate_plugin_readme_template": "SRAG_ILIAS_PLUGIN",
+    "long_description_template": "src/LONG_DESCRIPTION.md"
   },
   "type": "project",
   "keywords": [
-    "ILIAS",
-    "Plugin"
+    "ilias",
+    "interface",
+    "plugin",
+    "user"
   ],
-  "homepage": "https://github.com/studer-raimann/SrRestoreRoleTemplatesUI",
+  "homepage": "https://github.com/fluxfw/SrRestoreRoleTemplatesUI",
   "license": "GPL-3.0-only",
   "authors": [
     {
