@@ -7,7 +7,7 @@ namespace Composer\Autoload;
 class ComposerStaticInitc6e082278c4d301afe6f2894ec5ed711
 {
     public static $files = array (
-        '2037d1f2649570fa4355b68cbd78dd07' => __DIR__ . '/../..' . '/../../../Cron/CronHook/SrRestoreRoleTemplates/vendor/autoload.php',
+        '2037d1f2649570fa4355b68cbd78dd07' => '/Cron/CronHook/SrRestoreRoleTemplates/vendor/autoload.php',
     );
 
     public static $prefixLengthsPsr4 = array (
@@ -39,6 +39,7 @@ class ComposerStaticInitc6e082278c4d301afe6f2894ec5ed711
         'ilSrRestoreRoleTemplatesUIUIHookGUI' => __DIR__ . '/../..' . '/classes/class.ilSrRestoreRoleTemplatesUIUIHookGUI.php',
         'srag\\GeneratePluginInfosHelper\\SrRestoreRoleTemplatesUI\\GeneratePluginPhpAndXml' => __DIR__ . '/..' . '/srag/generateplugininfoshelper/src/GeneratePluginPhpAndXml.php',
         'srag\\GeneratePluginInfosHelper\\SrRestoreRoleTemplatesUI\\GeneratePluginReadme' => __DIR__ . '/..' . '/srag/generateplugininfoshelper/src/GeneratePluginReadme.php',
+        'srag\\GeneratePluginInfosHelper\\SrRestoreRoleTemplatesUI\\UpdateVersion' => __DIR__ . '/..' . '/srag/generateplugininfoshelper/src/UpdateVersion.php',
         'srag\\LibrariesNamespaceChanger\\LibrariesNamespaceChanger' => __DIR__ . '/..' . '/srag/librariesnamespacechanger/src/LibrariesNamespaceChanger.php',
         'srag\\LibrariesNamespaceChanger\\PHP72Backport' => __DIR__ . '/..' . '/srag/librariesnamespacechanger/src/PHP72Backport.php',
         'srag\\LibrariesNamespaceChanger\\PHP7Backport' => __DIR__ . '/..' . '/srag/librariesnamespacechanger/src/PHP7Backport.php',

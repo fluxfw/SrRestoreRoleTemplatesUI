@@ -1,7 +1,7 @@
 {
   "name": "srag/srrestoreroletemplatesui",
   "description": "Manually reapply didactic or role templates per object",
-  "version": "1.1.4",
+  "version": "1.1.5",
   "extra": {
     "ilias_plugin": {
       "id": "srresroltemui",
@@ -11,7 +11,7 @@
       "slot": "Services/UIComponent/UserInterfaceHook",
       "supports_cli_setup": true
     },
-    "generate_plugin_readme_template": "SRAG_ILIAS_PLUGIN",
+    "generate_plugin_readme_template": "ILIAS_PLUGIN",
     "long_description_template": "src/LONG_DESCRIPTION.md"
   },
   "type": "project",
@@ -31,9 +31,6 @@
       "role": "Developer"
     }
   ],
-  "support": {
-    "issues": "https://plugins.studer-raimann.ch/goto.php?target=uihk_srsu_PLRRT"
-  },
   "require": {
     "php": ">=7.0",
     "srag/generateplugininfoshelper": ">=0.1.0",
@@ -61,6 +58,9 @@
       "srag\\LibrariesNamespaceChanger\\PHP72Backport::PHP72Backport",
       "srag\\GeneratePluginInfosHelper\\SrRestoreRoleTemplatesUI\\GeneratePluginPhpAndXml::generatePluginPhpAndXml",
       "srag\\GeneratePluginInfosHelper\\SrRestoreRoleTemplatesUI\\GeneratePluginReadme::generatePluginReadme"
+    ],
+    "update-version": [
+      "srag\\GeneratePluginInfosHelper\\SrRestoreRoleTemplatesUI\\UpdateVersion::updateVersion"
     ]
   }
 }
