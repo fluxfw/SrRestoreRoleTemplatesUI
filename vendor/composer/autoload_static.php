@@ -7,7 +7,7 @@ namespace Composer\Autoload;
 class ComposerStaticInitc6e082278c4d301afe6f2894ec5ed711
 {
     public static $files = array (
-        '2037d1f2649570fa4355b68cbd78dd07' => __DIR__ . '/../..' . '/../../../Cron/CronHook/SrRestoreRoleTemplates/vendor/autoload.php',
+        '2037d1f2649570fa4355b68cbd78dd07' => '/Cron/CronHook/SrRestoreRoleTemplates/vendor/autoload.php',
     );
 
     public static $prefixLengthsPsr4 = array (
