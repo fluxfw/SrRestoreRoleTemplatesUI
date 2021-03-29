@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "15670c11a4c6993bf91adefc9f9b36d2",
+    "content-hash": "ef20051d3d0b6a5022702d5fb9e8ac65",
     "packages": [
         {
             "name": "srag/generateplugininfoshelper",
@@ -30,7 +30,7 @@
             },
             "autoload": {
                 "psr-4": {
-                    "srag\\GeneratePluginInfosHelper\\": "src/"
+                    "srag\\GeneratePluginInfosHelper\\SrRestoreRoleTemplatesUI\\": "src/"
                 }
             },
             "notification-url": "https://packagist.org/downloads/",

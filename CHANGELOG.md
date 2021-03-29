@@ -1,5 +1,8 @@
 # Changelog
 
+## [1.1.6]
+- Ignore not supported languages
+
 ## [1.1.5]
 - Update readme
 
