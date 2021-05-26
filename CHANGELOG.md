@@ -1,5 +1,8 @@
 # Changelog
 
+## [1.1.8]
+- Update urls
+
 ## [1.1.7]
 - Fix path to main plugin
 
