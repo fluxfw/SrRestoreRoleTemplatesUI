@@ -8,8 +8,6 @@ use srag\Plugins\SrRestoreRoleTemplates\Utils\SrRestoreRoleTemplatesTrait;
 
 /**
  * Class ilSrRestoreRoleTemplatesUIUIHookGUI
- *
- * @author studer + raimann ag - Team Custom 1 <support-custom1@studer-raimann.ch>
  */
 class ilSrRestoreRoleTemplatesUIUIHookGUI extends ilUIHookPluginGUI
 {

@@ -1,6 +1,6 @@
 ### Base plugin
 
-First you need to install the [SrRestoreRoleTemplates](https://github.com/studer-raimann/SrRestoreRoleTemplates) plugin
+First you need to install the [SrRestoreRoleTemplates](https://github.com/fluxapps/SrRestoreRoleTemplates) plugin
 
 You can disable its cron jobs if you don't wish it
 
