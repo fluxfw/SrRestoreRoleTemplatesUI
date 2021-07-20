@@ -34,7 +34,7 @@ class ilSrRestoreRoleTemplatesUIUIHookGUI extends ilUIHookPluginGUI
     /**
      * @inheritDoc
      */
-    public function modifyGUI(/*string*/ $a_comp, /*string*/ $a_part, /*array*/ $a_par = [])/*: void*/
+    public function modifyGUI(/*string*/ $a_comp, /*string*/ $a_part, /*array*/ $a_par = []) : void
     {
         if ($a_part === self::PAR_SUB_TABS) {
 
@@ -54,7 +54,7 @@ class ilSrRestoreRoleTemplatesUIUIHookGUI extends ilUIHookPluginGUI
     /**
      * @return int|null
      */
-    protected function getRefId()/* : ?int*/
+    protected function getRefId() : ?int
     {
         $obj_ref_id = filter_input(INPUT_GET, self::GET_PARAM_REF_ID);
 
