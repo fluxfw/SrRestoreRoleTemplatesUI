@@ -15,7 +15,6 @@ class ComposerStaticInitc6e082278c4d301afe6f2894ec5ed711
         array (
             'srag\\Plugins\\SrRestoreRoleTemplatesUI\\' => 38,
             'srag\\LibrariesNamespaceChanger\\' => 31,
-            'srag\\GeneratePluginInfosHelper\\SrRestoreRoleTemplatesUI\\' => 56,
         ),
     );
 
@@ -28,18 +27,11 @@ class ComposerStaticInitc6e082278c4d301afe6f2894ec5ed711
         array (
             0 => __DIR__ . '/..' . '/srag/librariesnamespacechanger/src',
         ),
-        'srag\\GeneratePluginInfosHelper\\SrRestoreRoleTemplatesUI\\' => 
-        array (
-            0 => __DIR__ . '/..' . '/srag/generateplugininfoshelper/src',
-        ),
     );
 
     public static $classMap = array (
         'ilSrRestoreRoleTemplatesUIPlugin' => __DIR__ . '/../..' . '/classes/class.ilSrRestoreRoleTemplatesUIPlugin.php',
         'ilSrRestoreRoleTemplatesUIUIHookGUI' => __DIR__ . '/../..' . '/classes/class.ilSrRestoreRoleTemplatesUIUIHookGUI.php',
-        'srag\\GeneratePluginInfosHelper\\SrRestoreRoleTemplatesUI\\GeneratePluginPhpAndXml' => __DIR__ . '/..' . '/srag/generateplugininfoshelper/src/GeneratePluginPhpAndXml.php',
-        'srag\\GeneratePluginInfosHelper\\SrRestoreRoleTemplatesUI\\GeneratePluginReadme' => __DIR__ . '/..' . '/srag/generateplugininfoshelper/src/GeneratePluginReadme.php',
-        'srag\\GeneratePluginInfosHelper\\SrRestoreRoleTemplatesUI\\UpdateVersion' => __DIR__ . '/..' . '/srag/generateplugininfoshelper/src/UpdateVersion.php',
         'srag\\LibrariesNamespaceChanger\\LibrariesNamespaceChanger' => __DIR__ . '/..' . '/srag/librariesnamespacechanger/src/LibrariesNamespaceChanger.php',
     );
 
