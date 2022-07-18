@@ -16,7 +16,7 @@ Start at your ILIAS root directory
 ```bash
 mkdir -p Customizing/global/plugins/Services/UIComponent/UserInterfaceHook
 cd Customizing/global/plugins/Services/UIComponent/UserInterfaceHook
-git clone https://github.com/fluxapps/SrRestoreRoleTemplatesUI.git SrRestoreRoleTemplatesUI
+git clone https://github.com/fluxfw/SrRestoreRoleTemplatesUI.git SrRestoreRoleTemplatesUI
 ```
 
 Update, activate and config the plugin in the ILIAS Plugin Administration
@@ -25,7 +25,7 @@ Update, activate and config the plugin in the ILIAS Plugin Administration
 
 ### Base plugin
 
-First you need to install the [SrRestoreRoleTemplates](https://github.com/fluxapps/SrRestoreRoleTemplates) plugin
+First you need to install the [SrRestoreRoleTemplates](https://github.com/fluxfw/SrRestoreRoleTemplates) plugin
 
 You can disable its cron jobs if you don't wish it
 
